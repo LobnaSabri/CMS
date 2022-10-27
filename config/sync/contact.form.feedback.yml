@@ -1,0 +1,14 @@
+uuid: f75ccfc2-e3ad-4bc7-bbdc-27022c639a2e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@info.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
