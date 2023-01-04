@@ -2,7 +2,7 @@
   --bodyBg: #fff;
   --textColor: #333;
   --dark: #272727;
-  --primaryColor: #41449f;
+  --primaryColor: #820e0e;
   --primaryLight: #babad3;
   --primaryLighter: #e9e9f2;
 }
@@ -11,6 +11,7 @@
 body {
   background-color: var(--bodyBg)
 }
+
 
 /* Text color */
 body,
@@ -35,9 +36,18 @@ body,
   background-color: var(--dark)
 }
 
+.btn-info{
+  background-color: #00746b;
+  border-color: #00746b
+}
+
+.btn-info:hover{
+  border-color: #00746b
+}
+
 /* Primary */
 .side-flyout,
-.btn-info,
+/* .btn-info, */
 .btn-white,
 form.user-pass,
 #user-pass,
@@ -65,9 +75,9 @@ form.user-pass,
   background-color: var(--primaryColor)
 }
 
-a,
+/* a, */
 a:hover,
-.btn-info:hover,
+/* .btn-info:hover, */
 .btn-white:hover,
 .btn-default, .path-cart [id="edit-submit"],
 .btn-primary:hover, .path-cart :hover[id="edit-checkout"],
@@ -75,7 +85,7 @@ a:hover,
 .breadcrumb>li>a,
 .breadcrumb>.active,
 .breadcrumb>li+li:before,
-.form-control,
+/* .form-control, */
 .select-wrapper:after,
 .panel-title[data-toggle="collapse"]:after,
 .block-facets .block-title:before,
@@ -95,8 +105,8 @@ a:hover,
   color: var(--primaryColor)
 }
 
-.btn-info,
-.btn-info:hover,
+/* .btn-info, */
+/* .btn-info:hover, */
 .btn-default, .path-cart [id="edit-submit"],
 .btn-primary, .path-cart [id="edit-checkout"],
 .btn-primary:hover, .path-cart :hover[id="edit-checkout"],

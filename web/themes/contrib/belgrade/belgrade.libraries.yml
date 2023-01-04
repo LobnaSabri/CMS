@@ -1,7 +1,7 @@
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Raleway:300,400,400i,700': { type: external, minified: true }
+      '//fonts.googleapis.com/css2?family=Crimson+Text': { type: external, minified: true }
 theme:
   css:
     theme:
