@@ -1,0 +1,14 @@
+uuid: 167b4d8d-886b-4fc8-9f82-f7bc5482a4fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.werknemer
+  module:
+    - user
+id: user_add_role_action.werknemer
+label: 'Add the Werknemer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: werknemer

@@ -1,6 +1,6 @@
 uuid: 46dbeb1e-60c2-4d08-8d54-653e096a91db
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.kookboek

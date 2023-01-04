@@ -1,0 +1,10 @@
+uuid: fc8c02a6-992c-4465-916c-e38ab040efe6
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.single_image
+label: 'Single image'
+targetEntityType: commerce_product_variation
+cache: true

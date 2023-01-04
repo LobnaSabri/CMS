@@ -1,0 +1,21 @@
+uuid: 5c905b08-5d13-417c-98be-0777c1e84687
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_bericht
+  module:
+    - text
+id: contact_message.contact.field_bericht
+field_name: field_bericht
+entity_type: contact_message
+bundle: contact
+label: Bericht
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

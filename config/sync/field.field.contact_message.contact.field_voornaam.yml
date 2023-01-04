@@ -1,0 +1,19 @@
+uuid: 1c438b3a-547f-44f3-be2c-4a44a113e915
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_voornaam
+id: contact_message.contact.field_voornaam
+field_name: field_voornaam
+entity_type: contact_message
+bundle: contact
+label: Voornaam
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,15 @@
+uuid: 189b0781-c6db-4cbc-87f1-69c43c0b4c3c
+langcode: en
+status: true
+dependencies: {  }
+name: product
+label: 'Product (570×570)'
+effects:
+  f32058fb-c12f-4cab-9160-993beec7c0b8:
+    uuid: f32058fb-c12f-4cab-9160-993beec7c0b8
+    id: image_scale
+    weight: 1
+    data:
+      width: 570
+      height: 570
+      upscale: false

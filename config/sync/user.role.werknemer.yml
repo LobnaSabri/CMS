@@ -1,0 +1,146 @@
+uuid: 90f8cf1c-ee17-4156-9c51-c3309cc5b3a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.auteur
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - commerce
+    - commerce_checkout
+    - commerce_order
+    - commerce_product
+    - commerce_store
+    - contact
+    - contextual
+    - filter
+    - image
+    - node
+    - path
+    - pathauto
+    - profile
+    - search
+    - system
+    - taxonomy
+    - toolbar
+id: werknemer
+label: Werknemer
+weight: 4
+is_admin: null
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access commerce administration pages'
+  - 'access commerce_order overview'
+  - 'access commerce_product overview'
+  - 'access commerce_product_attribute overview'
+  - 'access commerce_store overview'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access profile overview'
+  - 'access site-wide contact form'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer comments'
+  - 'administer commerce_checkout_flow'
+  - 'administer contact forms'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer pathauto'
+  - 'administer search'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create biografie commerce_product'
+  - 'create default commerce_order'
+  - 'create fictie commerce_product'
+  - 'create historische_boeken commerce_product'
+  - 'create horrorboeken commerce_product'
+  - 'create kookboek commerce_product'
+  - 'create leerboeken commerce_product'
+  - 'create page content'
+  - 'create terms in auteur'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any biografie commerce_product'
+  - 'delete any customer profile'
+  - 'delete any fictie commerce_product'
+  - 'delete any historische_boeken commerce_product'
+  - 'delete any horrorboeken commerce_product'
+  - 'delete any kookboek commerce_product'
+  - 'delete any leerboeken commerce_product'
+  - 'delete any page content'
+  - 'delete default commerce_order'
+  - 'delete own article content'
+  - 'delete own biografie commerce_product'
+  - 'delete own customer profile'
+  - 'delete own fictie commerce_product'
+  - 'delete own historische_boeken commerce_product'
+  - 'delete own horrorboeken commerce_product'
+  - 'delete own kookboek commerce_product'
+  - 'delete own leerboeken commerce_product'
+  - 'delete own page content'
+  - 'delete terms in auteur'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in auteur'
+  - 'edit terms in tags'
+  - 'manage biografie commerce_product_variation'
+  - 'manage default commerce_product_variation'
+  - 'manage fictie commerce_product_variation'
+  - 'manage historische_boeken commerce_product_variation'
+  - 'manage horrorboeken commerce_product_variation'
+  - 'manage kookboek commerce_product_variation'
+  - 'manage leerboeken commerce_product_variation'
+  - 'notify of path changes'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'update any biografie commerce_product'
+  - 'update any customer profile'
+  - 'update any fictie commerce_product'
+  - 'update any historische_boeken commerce_product'
+  - 'update any horrorboeken commerce_product'
+  - 'update any kookboek commerce_product'
+  - 'update any leerboeken commerce_product'
+  - 'update default commerce_order'
+  - 'update own biografie commerce_product'
+  - 'update own customer profile'
+  - 'update own fictie commerce_product'
+  - 'update own historische_boeken commerce_product'
+  - 'update own horrorboeken commerce_product'
+  - 'update own kookboek commerce_product'
+  - 'update own leerboeken commerce_product'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view any customer profile'
+  - 'view any profile'
+  - 'view article revisions'
+  - 'view biografie commerce_product'
+  - 'view commerce_order'
+  - 'view commerce_product'
+  - 'view commerce_product_attribute'
+  - 'view default commerce_order'
+  - 'view fictie commerce_product'
+  - 'view historische_boeken commerce_product'
+  - 'view horrorboeken commerce_product'
+  - 'view kookboek commerce_product'
+  - 'view leerboeken commerce_product'
+  - 'view own customer profile'
+  - 'view own profile'
+  - 'view page revisions'

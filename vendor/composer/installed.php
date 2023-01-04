@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3bc31473440de6fa76ec91acc3ce397e10ff5716',
+        'reference' => '4d87f8686dd9ba7952cd01963c5a320f3e21d681',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -493,6 +493,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/image_delta_formatter' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '8.x-1.1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/image_delta_formatter',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/inline_entity_form' => array(
             'pretty_version' => '1.0.0-rc14',
             'version' => '1.0.0.0-RC14',
@@ -523,7 +532,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3bc31473440de6fa76ec91acc3ce397e10ff5716',
+            'reference' => '4d87f8686dd9ba7952cd01963c5a320f3e21d681',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -39,6 +39,7 @@ module:
   help: 0
   history: 0
   image: 0
+  image_delta_formatter: 0
   inline_entity_form: 0
   link: 0
   menu_link_content: 0

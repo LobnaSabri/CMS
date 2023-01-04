@@ -1,0 +1,12 @@
+uuid: 7ac398d5-a0a4-435e-8806-8e54a9e733a6
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - lobna.sabri@student.hogent.be
+reply: ''
+weight: 0
+message: ''
+redirect: ''
