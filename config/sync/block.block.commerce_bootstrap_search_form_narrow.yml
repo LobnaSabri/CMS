@@ -1,0 +1,23 @@
+uuid: c36a36e6-72f7-48e5-8b0b-2d61bc280816
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: commerce_bootstrap_search_form_narrow
+theme: commerce_bootstrap
+region: navigation
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

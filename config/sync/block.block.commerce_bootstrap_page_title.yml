@@ -1,0 +1,20 @@
+uuid: 010ecb61-e7a0-499e-b0d6-f16bff42d0ba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: commerce_bootstrap_page_title
+theme: commerce_bootstrap
+region: navigation
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

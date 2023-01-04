@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies: {  }
 name: product
-label: 'Product (570×570)'
+label: 'Product (180×180)'
 effects:
   f32058fb-c12f-4cab-9160-993beec7c0b8:
     uuid: f32058fb-c12f-4cab-9160-993beec7c0b8
     id: image_scale
     weight: 1
     data:
-      width: 570
-      height: 570
+      width: 180
+      height: 180
       upscale: false
