@@ -1,0 +1,14 @@
+uuid: 63af30e4-a6de-41e2-b401-58d1fb10ccd1
+langcode: en
+status: true
+dependencies: {  }
+id: historische_boeken
+label: 'Historische boeken'
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder historische boeken'
+variationType: null
+variationTypes:
+  - historische_boeken
+multipleVariations: true
+injectVariationFields: true

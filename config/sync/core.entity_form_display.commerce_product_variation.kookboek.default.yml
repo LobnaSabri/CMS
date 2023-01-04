@@ -1,0 +1,78 @@
+uuid: c59a56d5-8ed2-4530-ad46-50b65e38bcdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.kookboek
+    - field.field.commerce_product_variation.kookboek.attribute_thema
+    - field.field.commerce_product_variation.kookboek.field_afbeelding_kookboek
+    - field.field.commerce_product_variation.kookboek.field_paginas
+    - field.field.commerce_product_variation.kookboek.field_uitgever
+    - image.style.thumbnail
+  module:
+    - commerce_price
+    - image
+id: commerce_product_variation.kookboek.default
+targetEntityType: commerce_product_variation
+bundle: kookboek
+mode: default
+content:
+  attribute_thema:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_afbeelding_kookboek:
+    type: image_image
+    weight: 91
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_paginas:
+    type: number
+    weight: 92
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_uitgever:
+    type: string_textfield
+    weight: 94
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  list_price:
+    type: commerce_list_price
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  price:
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 90
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

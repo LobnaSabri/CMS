@@ -1,0 +1,23 @@
+uuid: 223e5cc9-fba4-4039-8f07-5714130e7839
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.historische_boeken
+    - field.storage.commerce_product_variation.field_paginas
+id: commerce_product_variation.historische_boeken.field_paginas
+field_name: field_paginas
+entity_type: commerce_product_variation
+bundle: historische_boeken
+label: Paginas
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2
+  max: null
+  prefix: ''
+  suffix: pagina(s)
+field_type: integer

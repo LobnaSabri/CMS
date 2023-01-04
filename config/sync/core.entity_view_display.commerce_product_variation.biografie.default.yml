@@ -1,0 +1,76 @@
+uuid: c5bd341e-8b12-460e-acd6-e9bf70c0cb7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.biografie
+    - field.field.commerce_product_variation.biografie.attribute_thema
+    - field.field.commerce_product_variation.biografie.field_afbeelding_kookboek
+    - field.field.commerce_product_variation.biografie.field_paginas
+    - field.field.commerce_product_variation.biografie.field_uitgever
+  module:
+    - commerce_price
+    - image
+id: commerce_product_variation.biografie.default
+targetEntityType: commerce_product_variation
+bundle: biografie
+mode: default
+content:
+  field_afbeelding_kookboek:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_paginas:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_uitgever:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  list_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  sku:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  attribute_thema: true
+  product_id: true
+  title: true

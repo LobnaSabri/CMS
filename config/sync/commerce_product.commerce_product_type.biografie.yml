@@ -1,0 +1,14 @@
+uuid: 8eb7eb76-0faa-464c-8ec0-77eff6e689cc
+langcode: en
+status: true
+dependencies: {  }
+id: biografie
+label: Biografie
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder biografieën '
+variationType: null
+variationTypes:
+  - biografie
+multipleVariations: true
+injectVariationFields: true

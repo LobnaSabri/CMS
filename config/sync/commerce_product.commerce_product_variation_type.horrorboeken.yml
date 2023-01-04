@@ -1,0 +1,10 @@
+uuid: 3af75445-2169-45d2-b2d9-ce0d9e44e1aa
+langcode: en
+status: true
+dependencies: {  }
+id: horrorboeken
+label: Horrorboeken
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

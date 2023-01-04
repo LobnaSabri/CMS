@@ -1,0 +1,10 @@
+uuid: ae67d7a5-e52b-4d4f-b91b-6b8d03a1b23a
+langcode: en
+status: true
+dependencies: {  }
+id: leerboeken
+label: Leerboeken
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

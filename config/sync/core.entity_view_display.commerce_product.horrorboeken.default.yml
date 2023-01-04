@@ -1,0 +1,51 @@
+uuid: 17172201-fe1b-445c-91c0-f8b2f5459fc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.horrorboeken
+    - field.field.commerce_product.horrorboeken.body
+    - field.field.commerce_product.horrorboeken.field_auteur
+  module:
+    - commerce_product
+    - text
+id: commerce_product.horrorboeken.default
+targetEntityType: commerce_product
+bundle: horrorboeken
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_auteur:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

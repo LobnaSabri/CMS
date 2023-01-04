@@ -1,0 +1,23 @@
+uuid: b3ae19fb-67f1-4a42-a564-0b68c12beb83
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.fictie
+    - field.storage.commerce_product_variation.field_paginas
+id: commerce_product_variation.fictie.field_paginas
+field_name: field_paginas
+entity_type: commerce_product_variation
+bundle: fictie
+label: Paginas
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2
+  max: null
+  prefix: ''
+  suffix: pagina(s)
+field_type: integer

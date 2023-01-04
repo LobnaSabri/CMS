@@ -1,0 +1,10 @@
+uuid: e3955782-8d21-4d59-ba5e-ac5c9551524d
+langcode: en
+status: true
+dependencies: {  }
+id: kookboek
+label: Kookboek
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

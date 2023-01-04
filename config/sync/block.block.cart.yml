@@ -1,0 +1,21 @@
+uuid: 764d09a8-891d-4257-80c8-7c9da02c0b19
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - olivero
+id: cart
+theme: olivero
+region: secondary_menu
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

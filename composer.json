@@ -17,10 +17,12 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.2",
+        "drupal/commerce": "^2.32",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/devel": "^5.0",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/pathauto": "^1.11",
         "drush/drush": "^11.3"
     },

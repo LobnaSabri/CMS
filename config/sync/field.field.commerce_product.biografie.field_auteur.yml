@@ -1,0 +1,29 @@
+uuid: 8f7d5b4a-4413-44f3-9cd2-433845dbfe50
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.biografie
+    - field.storage.commerce_product.field_auteur
+    - taxonomy.vocabulary.auteur
+id: commerce_product.biografie.field_auteur
+field_name: field_auteur
+entity_type: commerce_product
+bundle: biografie
+label: auteur
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      auteur: auteur
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

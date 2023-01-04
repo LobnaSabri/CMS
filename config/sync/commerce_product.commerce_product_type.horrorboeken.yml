@@ -1,0 +1,14 @@
+uuid: 7f028b38-cf22-4e04-9095-a7cd37bfea45
+langcode: en
+status: true
+dependencies: {  }
+id: horrorboeken
+label: Horrorboeken
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder horrorboeken'
+variationType: null
+variationTypes:
+  - horrorboeken
+multipleVariations: true
+injectVariationFields: true

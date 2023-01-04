@@ -1,0 +1,14 @@
+uuid: fa43c3c6-0c63-48b4-ad22-fa995cbabcbb
+langcode: en
+status: true
+dependencies: {  }
+id: fictie
+label: Fictie
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder fictie'
+variationType: null
+variationTypes:
+  - fictie
+multipleVariations: true
+injectVariationFields: true

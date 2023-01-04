@@ -1,0 +1,23 @@
+uuid: ad6875c0-0eae-458e-9086-917c759fa3fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.kookboek
+    - field.storage.commerce_product_variation.field_paginas
+id: commerce_product_variation.kookboek.field_paginas
+field_name: field_paginas
+entity_type: commerce_product_variation
+bundle: kookboek
+label: Paginas
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2
+  max: null
+  prefix: ''
+  suffix: pagina(s)
+field_type: integer

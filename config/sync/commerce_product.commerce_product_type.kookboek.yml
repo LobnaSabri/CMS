@@ -1,0 +1,14 @@
+uuid: 112cdc5e-7328-4af6-99ea-800f89589043
+langcode: en
+status: true
+dependencies: {  }
+id: kookboek
+label: Kookboek
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder kookboeken'
+variationType: null
+variationTypes:
+  - kookboek
+multipleVariations: true
+injectVariationFields: true

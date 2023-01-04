@@ -1,0 +1,23 @@
+uuid: 01509720-f4c8-459a-96fd-0e55e9df7e68
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.historische_boeken
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.historische_boeken.body
+field_name: body
+entity_type: commerce_product
+bundle: historische_boeken
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

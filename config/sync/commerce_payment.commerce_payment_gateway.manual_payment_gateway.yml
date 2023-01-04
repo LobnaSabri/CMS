@@ -1,0 +1,19 @@
+uuid: 4e415034-6a8f-4d74-a176-183371b14257
+langcode: en
+status: true
+dependencies: {  }
+id: manual_payment_gateway
+label: 'manual payment gateway'
+weight: null
+plugin: manual
+configuration:
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

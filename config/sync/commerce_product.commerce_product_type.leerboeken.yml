@@ -1,0 +1,14 @@
+uuid: a122a36b-d6dc-4883-84bc-0fa9cb25a56c
+langcode: en
+status: true
+dependencies: {  }
+id: leerboeken
+label: Leerboeken
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder leerboeken'
+variationType: null
+variationTypes:
+  - leerboeken
+multipleVariations: true
+injectVariationFields: true

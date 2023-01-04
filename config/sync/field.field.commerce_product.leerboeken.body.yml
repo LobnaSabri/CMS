@@ -1,0 +1,23 @@
+uuid: 02948aa7-ce5b-49a2-8d54-d8c991bfa60e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.leerboeken
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.leerboeken.body
+field_name: body
+entity_type: commerce_product
+bundle: leerboeken
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

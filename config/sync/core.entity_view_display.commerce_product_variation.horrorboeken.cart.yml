@@ -1,0 +1,55 @@
+uuid: f8900280-6506-45a9-af08-e787dc0cc122
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.horrorboeken
+    - core.entity_view_mode.commerce_product_variation.cart
+    - field.field.commerce_product_variation.horrorboeken.attribute_thema
+    - field.field.commerce_product_variation.horrorboeken.field_afbeelding_kookboek
+    - field.field.commerce_product_variation.horrorboeken.field_paginas
+    - field.field.commerce_product_variation.horrorboeken.field_uitgever
+  module:
+    - commerce_price
+    - image
+id: commerce_product_variation.horrorboeken.cart
+targetEntityType: commerce_product_variation
+bundle: horrorboeken
+mode: cart
+content:
+  field_afbeelding_kookboek:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  list_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  attribute_thema: true
+  field_paginas: true
+  field_uitgever: true
+  product_id: true
+  sku: true
+  title: true

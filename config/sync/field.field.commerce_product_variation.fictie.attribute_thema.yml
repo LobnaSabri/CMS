@@ -1,0 +1,24 @@
+uuid: 291fe188-4faf-4ebf-9354-00657766711f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.thema
+    - commerce_product.commerce_product_variation_type.fictie
+    - field.storage.commerce_product_variation.attribute_thema
+id: commerce_product_variation.fictie.attribute_thema
+field_name: attribute_thema
+entity_type: commerce_product_variation
+bundle: fictie
+label: Taal
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - thema
+field_type: entity_reference
