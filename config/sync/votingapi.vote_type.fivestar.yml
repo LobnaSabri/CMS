@@ -1,0 +1,13 @@
+uuid: a0f87416-7d8d-40ca-ba8e-612554fad365
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rate
+_core:
+  default_config_hash: YDaKNH5gAcRiQN4F1UnuByD3snxONH-hKXc4WGqopkk
+id: fivestar
+label: 'Five star'
+value_type: points
+description: 'A simple 1-5 star rating.'

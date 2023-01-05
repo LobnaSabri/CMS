@@ -19,7 +19,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 11
+    weight: 1
     region: content
   field_auteur:
     type: entity_reference_label
@@ -27,7 +27,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 12
+    weight: 2
     region: content
   title:
     type: string
@@ -35,7 +35,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
   variations:
     type: commerce_add_to_cart
@@ -43,7 +43,7 @@ content:
     settings:
       combine: true
     third_party_settings: {  }
-    weight: 10
+    weight: 3
     region: content
 hidden:
   created: true

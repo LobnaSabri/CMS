@@ -12,6 +12,7 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - rate
     - search
     - shortcut
     - system
@@ -27,6 +28,12 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'cast rate vote on commerce_product_variation of biografie'
+  - 'cast rate vote on commerce_product_variation of fictie'
+  - 'cast rate vote on commerce_product_variation of historische_boeken'
+  - 'cast rate vote on commerce_product_variation of horrorboeken'
+  - 'cast rate vote on commerce_product_variation of kookboek'
+  - 'cast rate vote on commerce_product_variation of leerboeken'
   - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'
@@ -34,3 +41,4 @@ permissions:
   - 'use text format basic_html'
   - 'view commerce_product'
   - 'view own commerce_order'
+  - 'view rate results page'

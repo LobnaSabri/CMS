@@ -1,0 +1,52 @@
+uuid: 46169f54-4ef1-40fa-91e3-f022d56782fc
+langcode: en
+status: true
+dependencies: {  }
+id: rate_books
+label: rate_books
+template: fivestar
+value_type: percent
+entity_types:
+  - commerce_product_variation.biografie
+  - commerce_product_variation.fictie
+  - commerce_product_variation.historische_boeken
+  - commerce_product_variation.horrorboeken
+  - commerce_product_variation.kookboek
+  - commerce_product_variation.leerboeken
+comment_types: {  }
+options:
+  -
+    value: '0'
+    label: '1'
+    class: ''
+  -
+    value: '25'
+    label: '2'
+    class: ''
+  -
+    value: '50'
+    label: '3'
+    class: ''
+  -
+    value: '75'
+    label: '4'
+    class: ''
+  -
+    value: '100'
+    label: '5'
+    class: ''
+voting:
+  use_deadline: 0
+  anonymous_window: -2
+  user_window: -2
+display:
+  display_label: ''
+  label_class: ''
+  label_position: above
+  description: ''
+  description_class: ''
+  description_position: below
+  readonly: 0
+results:
+  result_type: user_vote_empty
+  result_position: right

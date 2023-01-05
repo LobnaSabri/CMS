@@ -17,6 +17,7 @@ module:
   commerce_number_pattern: 0
   commerce_order: 0
   commerce_payment: 0
+  commerce_paypal: 0
   commerce_price: 0
   commerce_product: 0
   commerce_store: 0
@@ -51,6 +52,7 @@ module:
   path: 0
   path_alias: 0
   profile: 0
+  rate: 0
   rdf: 0
   search: 0
   shortcut: 0
@@ -64,6 +66,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  votingapi: 0
   pathauto: 1
   views: 10
   standard: 1000

@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: manual_payment_gateway
 label: 'manual payment gateway'
-weight: null
+weight: -10
 plugin: manual
 configuration:
   display_label: Manual

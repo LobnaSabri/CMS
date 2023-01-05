@@ -1,4 +1,4 @@
-uuid: 488bfb67-2b8e-45a5-af76-da4f76a21f0c
+uuid: db71ff22-425a-48ee-ba03-eafa5da73167
 langcode: en
 status: true
 dependencies:
@@ -9,22 +9,25 @@ dependencies:
     - field.field.commerce_product_variation.fictie.field_afbeelding_kookboek
     - field.field.commerce_product_variation.fictie.field_paginas
     - field.field.commerce_product_variation.fictie.field_uitgever
+    - image.style.product
   module:
     - commerce_price
-    - image
+    - image_delta_formatter
 id: commerce_product_variation.fictie.cart
 targetEntityType: commerce_product_variation
 bundle: fictie
 mode: cart
 content:
   field_afbeelding_kookboek:
-    type: image
+    type: image_delta_formatter
     label: above
     settings:
+      deltas: '0'
+      image_style: product
       image_link: ''
-      image_style: ''
       image_loading:
         attribute: lazy
+      deltas_reversed: 0
     third_party_settings: {  }
     weight: 1
     region: content
@@ -45,6 +48,11 @@ content:
       currency_display: symbol
     third_party_settings: {  }
     weight: 0
+    region: content
+  rate_rate_books:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   attribute_thema: true

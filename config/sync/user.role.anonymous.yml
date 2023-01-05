@@ -10,6 +10,7 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - rate
     - search
     - system
 _core:
@@ -32,3 +33,4 @@ permissions:
   - 'view horrorboeken commerce_product'
   - 'view kookboek commerce_product'
   - 'view leerboeken commerce_product'
+  - 'view rate results page'

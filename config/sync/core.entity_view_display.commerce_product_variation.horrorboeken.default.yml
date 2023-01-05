@@ -1,4 +1,4 @@
-uuid: cc66477a-a20b-4b6c-b6ea-1d8654154b6f
+uuid: c5c38f56-a35a-40b6-ab7a-96b1cee4ab55
 langcode: en
 status: true
 dependencies:
@@ -10,20 +10,22 @@ dependencies:
     - field.field.commerce_product_variation.horrorboeken.field_uitgever
   module:
     - commerce_price
-    - image
+    - image_delta_formatter
 id: commerce_product_variation.horrorboeken.default
 targetEntityType: commerce_product_variation
 bundle: horrorboeken
 mode: default
 content:
   field_afbeelding_kookboek:
-    type: image
+    type: image_delta_formatter
     label: above
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
+      deltas: 0
+      deltas_reversed: false
     third_party_settings: {  }
     weight: 3
     region: content
@@ -61,6 +63,11 @@ content:
       currency_display: symbol
     third_party_settings: {  }
     weight: 1
+    region: content
+  rate_rate_books:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
   sku:
     type: string

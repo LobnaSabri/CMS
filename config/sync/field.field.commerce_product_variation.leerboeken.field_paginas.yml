@@ -1,4 +1,4 @@
-uuid: e1f9a249-886d-498f-8d5a-22291ade83ea
+uuid: c0c955ff-04a9-41a5-8a9b-46e332cb6c0f
 langcode: en
 status: true
 dependencies:
@@ -19,5 +19,5 @@ settings:
   min: 2
   max: null
   prefix: ''
-  suffix: pagina(s)
+  suffix: ' pagina(s)'
 field_type: integer

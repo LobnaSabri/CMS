@@ -86,6 +86,7 @@ class ComposerStaticInit002e8b8b5f4b2d6976ab5a0a1b1caadb
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'SelfUpdate\\' => 11,
+            'Sainsburys\\Guzzle\\Oauth2\\' => 25,
         ),
         'R' => 
         array (
@@ -118,6 +119,10 @@ class ComposerStaticInit002e8b8b5f4b2d6976ab5a0a1b1caadb
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Grasmash\\Expander\\' => 18,
+        ),
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
         ),
         'E' => 
         array (
@@ -309,6 +314,10 @@ class ComposerStaticInit002e8b8b5f4b2d6976ab5a0a1b1caadb
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
         ),
+        'Sainsburys\\Guzzle\\Oauth2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sainsburys/guzzle-oauth2-plugin/src',
+        ),
         'Robo\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
@@ -377,6 +386,10 @@ class ComposerStaticInit002e8b8b5f4b2d6976ab5a0a1b1caadb
         'Grasmash\\Expander\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Enlightn\\SecurityChecker\\' => 
         array (

@@ -10,20 +10,22 @@ dependencies:
     - field.field.commerce_product_variation.kookboek.field_uitgever
   module:
     - commerce_price
-    - image
+    - image_delta_formatter
 id: commerce_product_variation.kookboek.default
 targetEntityType: commerce_product_variation
 bundle: kookboek
 mode: default
 content:
   field_afbeelding_kookboek:
-    type: image
+    type: image_delta_formatter
     label: above
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
+      deltas: 0
+      deltas_reversed: false
     third_party_settings: {  }
     weight: 3
     region: content
@@ -61,6 +63,11 @@ content:
       currency_display: symbol
     third_party_settings: {  }
     weight: 1
+    region: content
+  rate_rate_books:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
   sku:
     type: string

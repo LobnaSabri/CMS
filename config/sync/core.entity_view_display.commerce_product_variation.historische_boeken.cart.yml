@@ -1,4 +1,4 @@
-uuid: 592e1111-ff53-4c84-80f3-2a94d8258327
+uuid: 39f57bb2-cd77-4436-bc11-49e9e38f43a6
 langcode: en
 status: true
 dependencies:
@@ -9,22 +9,25 @@ dependencies:
     - field.field.commerce_product_variation.historische_boeken.field_afbeelding_kookboek
     - field.field.commerce_product_variation.historische_boeken.field_paginas
     - field.field.commerce_product_variation.historische_boeken.field_uitgever
+    - image.style.product
   module:
     - commerce_price
-    - image
+    - image_delta_formatter
 id: commerce_product_variation.historische_boeken.cart
 targetEntityType: commerce_product_variation
 bundle: historische_boeken
 mode: cart
 content:
   field_afbeelding_kookboek:
-    type: image
+    type: image_delta_formatter
     label: above
     settings:
+      deltas: '0'
+      image_style: product
       image_link: ''
-      image_style: ''
       image_loading:
         attribute: lazy
+      deltas_reversed: 0
     third_party_settings: {  }
     weight: 1
     region: content
@@ -45,6 +48,11 @@ content:
       currency_display: symbol
     third_party_settings: {  }
     weight: 0
+    region: content
+  rate_rate_books:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   attribute_thema: true

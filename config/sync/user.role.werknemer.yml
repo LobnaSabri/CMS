@@ -25,6 +25,7 @@ dependencies:
     - path
     - pathauto
     - profile
+    - rate
     - search
     - system
     - taxonomy
@@ -55,9 +56,16 @@ permissions:
   - 'administer filters'
   - 'administer image styles'
   - 'administer pathauto'
+  - 'administer rate'
   - 'administer search'
   - 'administer taxonomy'
   - 'administer url aliases'
+  - 'cast rate vote on commerce_product_variation of biografie'
+  - 'cast rate vote on commerce_product_variation of fictie'
+  - 'cast rate vote on commerce_product_variation of historische_boeken'
+  - 'cast rate vote on commerce_product_variation of horrorboeken'
+  - 'cast rate vote on commerce_product_variation of kookboek'
+  - 'cast rate vote on commerce_product_variation of leerboeken'
   - 'create article content'
   - 'create biografie commerce_product'
   - 'create default commerce_order'
@@ -144,3 +152,4 @@ permissions:
   - 'view own customer profile'
   - 'view own profile'
   - 'view page revisions'
+  - 'view rate results page'

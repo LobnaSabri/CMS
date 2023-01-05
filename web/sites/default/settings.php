@@ -795,7 +795,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
    include $app_root . '/' . $site_path . '/settings.local.php';
  }
 $databases['default']['default'] = array (
-  'database' => 'drupal_project',
+  'database' => 'drupal_project2',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
