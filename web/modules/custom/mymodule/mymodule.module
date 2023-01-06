@@ -1,0 +1,14 @@
+<?php
+/**
+ * this is a module to change the text of the filter button from "apply" to "zoek"
+ *
+ */
+
+function mymodule_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+  //\Drupal::messenger()->addMessage(t("The form id is @id", ['@id' => $form_id]));
+
+  if($form_id == 'views_exposed_form' ){
+    //ksm($form);
+    $form['actions']['submit']['#value'] = t('Zoek');
+  }
+}

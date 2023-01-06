@@ -1,0 +1,6 @@
+mymodule.newpage:
+  title: "MyModule"
+  description: "Link naar de mymodule pagina"
+  route_name: mymodule.content
+  weight: 10
+  menu_name: footer
