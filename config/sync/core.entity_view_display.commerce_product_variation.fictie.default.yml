@@ -10,22 +10,20 @@ dependencies:
     - field.field.commerce_product_variation.fictie.field_uitgever
   module:
     - commerce_price
-    - image_delta_formatter
+    - image
 id: commerce_product_variation.fictie.default
 targetEntityType: commerce_product_variation
 bundle: fictie
 mode: default
 content:
   field_afbeelding_kookboek:
-    type: image_delta_formatter
+    type: image
     label: above
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
-      deltas: 0
-      deltas_reversed: false
     third_party_settings: {  }
     weight: 3
     region: content

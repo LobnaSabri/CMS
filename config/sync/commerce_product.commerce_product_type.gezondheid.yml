@@ -1,0 +1,14 @@
+uuid: 8a9ccf1e-8f58-4038-a64b-b680dd41a623
+langcode: en
+status: true
+dependencies: {  }
+id: gezondheid
+label: Gezondheid
+traits: {  }
+locked: false
+description: 'Ik verkoop boeken, waaronder gezondheidsboeken'
+variationType: null
+variationTypes:
+  - gezondheid
+multipleVariations: true
+injectVariationFields: true

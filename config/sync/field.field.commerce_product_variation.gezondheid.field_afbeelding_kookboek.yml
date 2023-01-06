@@ -1,0 +1,38 @@
+uuid: c3951914-ae9c-485f-b15d-a19644c96e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.gezondheid
+    - field.storage.commerce_product_variation.field_afbeelding_kookboek
+  module:
+    - image
+id: commerce_product_variation.gezondheid.field_afbeelding_kookboek
+field_name: field_afbeelding_kookboek
+entity_type: commerce_product_variation
+bundle: gezondheid
+label: afbeelding_gezondheid
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

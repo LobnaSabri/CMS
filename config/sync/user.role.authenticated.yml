@@ -4,14 +4,15 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.restricted_html
   module:
     - comment
     - commerce_checkout
     - commerce_order
-    - commerce_payment
     - commerce_product
     - contact
     - filter
+    - node
     - rate
     - search
     - shortcut
@@ -34,11 +35,12 @@ permissions:
   - 'cast rate vote on commerce_product_variation of horrorboeken'
   - 'cast rate vote on commerce_product_variation of kookboek'
   - 'cast rate vote on commerce_product_variation of leerboeken'
-  - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format restricted_html'
   - 'view commerce_product'
   - 'view own commerce_order'
+  - 'view own unpublished content'
   - 'view rate results page'

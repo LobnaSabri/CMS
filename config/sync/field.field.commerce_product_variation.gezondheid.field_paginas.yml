@@ -1,0 +1,23 @@
+uuid: 44f8327f-e128-4668-b457-efdfe4836400
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.gezondheid
+    - field.storage.commerce_product_variation.field_paginas
+id: commerce_product_variation.gezondheid.field_paginas
+field_name: field_paginas
+entity_type: commerce_product_variation
+bundle: gezondheid
+label: Paginas
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2
+  max: null
+  prefix: ''
+  suffix: ' pagina(s)'
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: 8a8ea6d6-956f-4a21-bd71-36797b9c9f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.gezondheid
+    - field.storage.commerce_product_variation.field_uitgever
+id: commerce_product_variation.gezondheid.field_uitgever
+field_name: field_uitgever
+entity_type: commerce_product_variation
+bundle: gezondheid
+label: uitgever
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

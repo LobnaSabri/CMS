@@ -1,0 +1,9 @@
+uuid: 0f36c989-5709-4b4b-886e-5801e00640ad
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: BSD
+name: 'Bahamian Dollar'
+numericCode: '044'
+symbol: BSD
+fractionDigits: 2

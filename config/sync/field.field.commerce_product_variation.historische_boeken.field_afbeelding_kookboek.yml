@@ -11,7 +11,7 @@ id: commerce_product_variation.historische_boeken.field_afbeelding_kookboek
 field_name: field_afbeelding_kookboek
 entity_type: commerce_product_variation
 bundle: historische_boeken
-label: afbeelding_kookboek
+label: afbeelding_historische_boeken
 description: ''
 required: true
 translatable: false
@@ -20,7 +20,7 @@ default_value_callback: ''
 settings:
   handler: 'default:file'
   handler_settings: {  }
-  file_directory: kookboekafbeelding
+  file_directory: historischeboekenafbeelding
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

@@ -23,7 +23,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Books
+      title: Boeken
       fields:
         title:
           id: title
@@ -405,10 +405,10 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: books
+      path: boeken
       menu:
         type: normal
-        title: Books
+        title: Boeken
         description: ''
         weight: 0
         expanded: false
